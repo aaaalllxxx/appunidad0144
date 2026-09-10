@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">appUnidad0144</string>
+    <string name="strTitulo">Mi Primer Aplicacion</string>
+    <string name="strNombre">¿ Cual es tu nombre ?</string>
+    <string name="strSalir">Salir</string>
+    <string name="strLimpiar">Limpiar</string>
+    <string name="strSaludra">Dar Click</string>
+    <string name="strAlumnos">Alexandra García Velarde</string>
+    <string name="strMatricula">2025030481</string>
+    <string name="strMateria">Programación Móvil</string>
+    <string name="strHola">Hola</string>
+    <string name="strImc">IMC</string>
+    <string name="strConvGrad">Conv Grados</string>
+    <string name="strConMoneda">Moneda</string>
+    <string name="strCotización">Cotizar</string>
+    <string name="strpreExam1">Pre Examen 1</string>
+    <string name="strExamen">Examen 1</string>
+
+</resources>
