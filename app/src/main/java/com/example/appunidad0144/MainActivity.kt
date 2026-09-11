@@ -6,6 +6,7 @@ import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
@@ -65,7 +66,22 @@ declarar variables var nombre:Tipo = 0
             txtNombre.setText("")
         }
         btnCerrar.setOnClickListener {
-            this.finish()
+
+            val builder = AlertDialog.Builder(this)
+            builder.setTitle("App Hola")
+            builder.setMessage("¿Desea salir?")
+
+            //botones
+            builder.setPositiveButton("Aceptar"){
+                dialog, which -> finish()
+            }
+
+            builder.setNegativeButton("Cancelar"){
+                dialog, whitch ->
+                Toast.makeText(this,"Continuamos en hola", Toast.LENGTH_SHORT).show()
+            }
+
+            builder.show()
         }
     }
 
