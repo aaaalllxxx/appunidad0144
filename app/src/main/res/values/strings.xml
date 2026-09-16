@@ -16,4 +16,11 @@
     <string name="strpreExam1">Pre Examen 1</string>
     <string name="strExamen">Examen 1</string>
 
+    <!--String para IMC-->
+    <string name="strAltura">Altura Ej. 1.80 mts</string>
+    <string name="strPeso">Peso Ej 90.5 kg</string>
+    <string name="strResultado">IMC = </string>
+    <string name="strCalcular">Calcular</string>
+
+
 </resources>

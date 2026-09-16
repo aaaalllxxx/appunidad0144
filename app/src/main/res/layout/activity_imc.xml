@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImcActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10sp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/titulo"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:text="@string/strImc"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:paddingTop="10sp"
+            android:paddingBottom="5sp">
+
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/strAltura"
+            android:inputType="numberDecimal"
+            android:paddingTop="10sp"
+            android:paddingBottom="10sp"
+            android:textSize="20sp"
+            android:id="@+id/txtAltura">
+
+        </EditText>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/strPeso"
+            android:inputType="numberDecimal"
+            android:paddingTop="10sp"
+            android:paddingBottom="10sp"
+            android:textSize="20sp"
+            android:id="@+id/txtPeso">
+
+        </EditText>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/strResultado"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textColor="@color/red"
+            android:id="@+id/txtResultado">
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="491dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/categorias"
+            android:id="@+id/imgCategorias">
+
+
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="5sp">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/strCalcular"
+                android:layout_weight="1"
+                android:id="@+id/btnCalcular">
+
+            </Button>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/strLimpiar"
+                android:layout_weight="1"
+                android:id="@+id/btnLimpiar">
+
+            </Button>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/strSalir"
+                android:layout_weight="1"
+                android:id="@+id/btnSalir">
+
+            </Button>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>

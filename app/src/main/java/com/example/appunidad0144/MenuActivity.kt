@@ -51,6 +51,10 @@ class MenuActivity : AppCompatActivity() {
 
 
         }
+        crvImc.setOnClickListener {
+            var intent = Intent(this, ImcActivity::class.java )
+            startActivity(intent)
+        }
         crvSalir.setOnClickListener {
             val builder = AlertDialog.Builder(this)
             builder.setTitle("App Hola")
