@@ -68,7 +68,7 @@ declarar variables var nombre:Tipo = 0
         btnCerrar.setOnClickListener {
 
             val builder = AlertDialog.Builder(this)
-            builder.setTitle("App Hola")
+            builder.setTitle("App")
             builder.setMessage("¿Desea salir?")
 
             //botones
