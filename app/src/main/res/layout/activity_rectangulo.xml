@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RectanguloActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <TextView
+            android:id="@+id/txtNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/strNombreUsuario"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:paddingBottom="10dp">
+
+        </TextView>
+        <EditText
+            android:id="@+id/txtBase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/strBase"
+            android:inputType="numberDecimal">
+
+        </EditText>
+        <EditText
+            android:id="@+id/txtPreAltura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/strPreAltura"
+            android:inputType="numberDecimal">
+
+        </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="30dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/strCalculo"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:paddingEnd="20dp">
+
+        </TextView>
+        <Spinner
+            android:id="@+id/spnRectangulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </Spinner>
+
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtResultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/strResultadoPreEx"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:paddingTop="30dp"
+            android:paddingBottom="30dp">
+
+        </TextView>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+        </Space>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnCalcular"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/strCalcularPreEx">
+
+            </Button>
+            <Button
+                android:id="@+id/btnLimpiar"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/strLimpiarPreEx">
+
+            </Button>
+            <Button
+                android:id="@+id/btnSalir"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/strRegresarPreEx">
+
+            </Button>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
