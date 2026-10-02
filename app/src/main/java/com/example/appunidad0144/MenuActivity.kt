@@ -16,6 +16,7 @@ class MenuActivity : AppCompatActivity() {
     private lateinit var crvConGrados: CardView
     private lateinit var crvMoneda: CardView
     private lateinit var crvCotizacion: CardView
+    private lateinit var crvPreExam: CardView
     private lateinit var crvSalir: CardView
 
 
@@ -39,6 +40,7 @@ class MenuActivity : AppCompatActivity() {
         crvConGrados= findViewById(R.id.crvGrados)
         crvMoneda= findViewById(R.id.crvMonedas)
         crvCotizacion= findViewById(R.id.crvCotizacion)
+        crvPreExam = findViewById(R.id.crvPreExam)
         crvSalir= findViewById(R.id.crvSalir)
 
     }
@@ -63,9 +65,19 @@ class MenuActivity : AppCompatActivity() {
             var intent= Intent(this, MonedasActivity::class.java)
             startActivity(intent)
         }
+        crvCotizacion.setOnClickListener {
+        var intent= Intent(this, ClienteActivity::class.java)
+            startActivity(intent)
+        }
+        crvPreExam.setOnClickListener {
+            var intent= Intent(this, PreExamActivity::class.java)
+            startActivity(intent)
+        }
+
+
         crvSalir.setOnClickListener {
             val builder = AlertDialog.Builder(this)
-            builder.setTitle("App Hola")
+            builder.setTitle("App")
             builder.setMessage("¿Desea salir?")
 
             //botones

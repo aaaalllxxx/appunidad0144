@@ -49,5 +49,50 @@
     <string name="strBtnConv">Convertir</string>
 
 
+    <!--String para Cotización -->
+    <string name="strTituloCot">Toyota</string>
+    <string name="strDireccion">Av. Del Mar 1200</string>
+    <string name="strCiudad">Mazatlan, Sinaloa</string>
+    <string name="strCliente">Nombre del Cliente</string>
+    <string name="strBtnEntrar">Ingresar</string>
+    <string name="strBtnReresar">Regresar</string>
+    <string name="strNumFolio">Num. de Folio</string>
+    <string name="strDescripcion">Descripción del Automóvil</string>
+    <string name="strPortcentaje">Porcentaje de Pago Inicial</string>
+    <string name="strValorAuto">Valor del Automóvil</string>
+    <string name="strPlazos">Plazos</string>
+    <string name="str12Meses">12 Meses</string>
+    <string name="str24Meses">24 Meses</string>
+    <string name="str36Meses">36 Meses</string>
+    <string name="str48Meses">48 Meses</string>
+    <string name="strBtnCalcularCot">Calcular</string>
+    <string name="strCalculos">Cálculos</string>
+    <string name="strPago">Pago Inicial: </string>
+    <string name="strTotalP">Total a Financiar: </string>
+    <string name="strPagoMen">Pago Mensual: </string>
+    <string name="strCerrar">Cerrar</string>
+
+    <!--String para Pre Exam 1 -->
+    <string name="user">lobatos</string>
+    <string name="paa">987</string>
+    <string name="nombre">Jose Lopez A</string>
+
+    <string-array name="operaciones">
+        <item>Area</item>
+        <item>Perimetro</item>
+    </string-array>
+
+    <string name="strUser">Escribir el usuario</string>
+    <string name="strContra">Escribir Contraseña</string>
+    <string name="strBtnIngresa">Ingresar</string>
+    <string name="strBtnCerrarPreEx">Cerrar</string>
+    <string name="strNombreUsuario">Nombre Usuario :</string>
+    <string name="strBase">Base</string>
+    <string name="strPreAltura">Altura</string>
+    <string name="strCalculo">Calculo</string>
+    <string name="strResultadoPreEx">Resultado:</string>
+    <string name="strCalcularPreEx">Calcular</string>
+    <string name="strLimpiarPreEx">Limpiar</string>
+    <string name="strRegresarPreEx">Regresar</string>
 
 </resources>

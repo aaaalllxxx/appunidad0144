@@ -36,7 +36,7 @@ class GradosActivity : AppCompatActivity() {
     fun iniciarComponentes(){
         txtCantidad= findViewById(R.id.txtCantidad)
         rdbCel= findViewById(R.id.rdCel)
-        rdbCel= findViewById(R.id.rdCel)
+        rdbFah= findViewById(R.id.rdCel)
         txtRes= findViewById(R.id.txtResultado)
         btnCalcularG= findViewById(R.id.btnCalcular)
         btnLimpiar= findViewById(R.id.btnLimpiar)
