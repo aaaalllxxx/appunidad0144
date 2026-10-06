@@ -50,7 +50,7 @@
             android:textSize="20dp"/>
 
         <EditText
-            android:id="@+id/txtContrasena"
+            android:id="@+id/txtContra"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/strContrasena"
