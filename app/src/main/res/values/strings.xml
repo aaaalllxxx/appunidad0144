@@ -13,8 +13,8 @@
     <string name="strConvGrad">Conv Grados</string>
     <string name="strConMoneda">Moneda</string>
     <string name="strCotización">Cotizar</string>
-    <string name="strpreExam1">Pre Examen 1</string>
-    <string name="strExamen">Examen 1</string>
+    <string name="strpreExam1">Pre Examen</string>
+    <string name="strExamen">Examen</string>
 
     <!--String para IMC-->
     <string name="strAltura">Altura Ej. 1.80 mts</string>
@@ -94,5 +94,22 @@
     <string name="strCalcularPreEx">Calcular</string>
     <string name="strLimpiarPreEx">Limpiar</string>
     <string name="strRegresarPreEx">Regresar</string>
+
+
+    <!--Strings para examen-->
+
+
+    <string name="strCalculadora">Calculadora</string>
+    <string name="strUsuario">Usuario</string>
+    <string name="strContrasena">Contraseña</string>
+    <string name="strBtnExIngresa">Ingresar</string>
+    <string name="strBtnSalir">Salir</string>
+    <string name="strNum1">Num 1</string>
+    <string name="strNum2">Num 2</string>
+    <string name="strExResultado">Resultado: </string>
+    <string name="strBtnLimpiar">Limpiar</string>
+    <string name="strBtnRegresar">Regresar</string>
+
+
 
 </resources>

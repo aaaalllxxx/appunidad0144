@@ -17,6 +17,7 @@ class MenuActivity : AppCompatActivity() {
     private lateinit var crvMoneda: CardView
     private lateinit var crvCotizacion: CardView
     private lateinit var crvPreExam: CardView
+    private lateinit var crvExamen: CardView
     private lateinit var crvSalir: CardView
 
 
@@ -72,6 +73,10 @@ class MenuActivity : AppCompatActivity() {
         crvPreExam.setOnClickListener {
             var intent= Intent(this, PreExamActivity::class.java)
             startActivity(intent)
+        }
+
+        crvExamen.setOnClickListener {
+
         }
 
 

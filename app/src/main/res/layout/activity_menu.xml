@@ -63,11 +63,11 @@
 
             <ImageView
                 android:layout_width="80dp"
-                android:layout_height="80dp"
+                android:layout_height="70dp"
                 android:layout_alignParentRight="true"
                 android:src="@mipmap/yo"
                 android:layout_marginRight="9sp"
-                android:layout_marginTop="15sp">
+                android:layout_marginTop="10sp">
 
             </ImageView>
         </RelativeLayout>
@@ -304,6 +304,46 @@
                         android:textSize="18dp"
                         android:layout_marginBottom="10dp"
                         android:text="@string/strpreExam1"
+                        android:textStyle="bold"
+                        android:textColor="@color/red">
+
+                    </TextView>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12sp"
+                android:id="@+id/crvExamen">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16sp">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@mipmap/logo">
+
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="@string/strExamen"
                         android:textStyle="bold"
                         android:textColor="@color/red">
 
