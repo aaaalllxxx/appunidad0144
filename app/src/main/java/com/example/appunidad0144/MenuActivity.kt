@@ -76,6 +76,7 @@ class MenuActivity : AppCompatActivity() {
         }
 
         crvExamen.setOnClickListener {
+        var intent= Intent(this, IngresarActivity::class.java)
 
         }
 

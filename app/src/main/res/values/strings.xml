@@ -102,8 +102,6 @@
     <string name="strCalculadora">Calculadora</string>
     <string name="strUsuario">Usuario</string>
     <string name="strContrasena">Contraseña</string>
-    <string name="strBtnExIngresa">Ingresar</string>
-    <string name="strBtnSalir">Salir</string>
     <string name="strNum1">Num 1</string>
     <string name="strNum2">Num 2</string>
     <string name="strExResultado">Resultado: </string>
