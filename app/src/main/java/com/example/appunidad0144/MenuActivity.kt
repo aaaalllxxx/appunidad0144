@@ -42,6 +42,7 @@ class MenuActivity : AppCompatActivity() {
         crvMoneda= findViewById(R.id.crvMonedas)
         crvCotizacion= findViewById(R.id.crvCotizacion)
         crvPreExam = findViewById(R.id.crvPreExam)
+        crvExamen= findViewById(R.id.crvExamen)
         crvSalir= findViewById(R.id.crvSalir)
 
     }
@@ -77,7 +78,7 @@ class MenuActivity : AppCompatActivity() {
 
         crvExamen.setOnClickListener {
         var intent= Intent(this, IngresarActivity::class.java)
-
+            startActivity(intent)
         }
 
 

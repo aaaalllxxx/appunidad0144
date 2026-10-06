@@ -34,7 +34,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/strNum1" />
+            android:text="@string/strNum1"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
 
         <EditText
             android:id="@+id/txtNum1"
@@ -48,7 +50,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/strNum2" />
+            android:text="@string/strNum2"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
 
         <EditText
             android:id="@+id/txtNum2"
@@ -102,8 +106,19 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/strExResultado"
-            android:textSize="20sp"
+            android:textSize="25sp"
             android:paddingBottom="20dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+        </Space>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
         <Button
             android:id="@+id/btnLimpiar"
@@ -116,6 +131,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/strBtnRegresar" />
+
+        </LinearLayout>
 
     </LinearLayout>
 
