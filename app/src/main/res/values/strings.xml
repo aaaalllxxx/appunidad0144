@@ -109,7 +109,10 @@
     <string name="strExResultado">Resultado: </string>
     <string name="strBtnLimpiar">Limpiar</string>
     <string name="strBtnRegresar">Regresar</string>
-
+    <string name="btnBtnSumar">+</string>
+    <string name="btnBtnRestar">-</string>
+    <string name="btnBtnMulti">*</string>
+    <string name="btnBtnDividir">/</string>
 
 
 </resources>
