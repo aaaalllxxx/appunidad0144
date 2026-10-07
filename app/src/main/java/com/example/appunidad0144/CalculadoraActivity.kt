@@ -28,7 +28,7 @@ class CalculadoraActivity : AppCompatActivity() {
     }
 
     private fun iniciarValores() {
-        b.lblUsuario.text = "Usuario: " + getString(R.string.nombre)
+        b.txtUsuario.text = "Usuario: " + getString(R.string.nombre)
     }
 
 
@@ -67,7 +67,7 @@ class CalculadoraActivity : AppCompatActivity() {
             b.txtResultado.text = "Resultado: " + String.format("%.2f", calculadora.resta())
         }
 
-        b.btnMult.setOnClickListener {
+        b.btnMulti.setOnClickListener {
             val (num1, num2) = obtenerNumeros() ?: return@setOnClickListener
             calculadora.num1 = num1
             calculadora.num2 = num2

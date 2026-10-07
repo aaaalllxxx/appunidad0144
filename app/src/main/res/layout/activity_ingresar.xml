@@ -20,7 +20,7 @@
             android:layout_height="wrap_content"
             android:text="@string/strCalculadora"
             android:textAlignment="center"
-            android:textSize="28sp"
+            android:textSize="30sp"
             android:textStyle="bold"
             android:paddingBottom="20dp" />
 
@@ -30,7 +30,7 @@
             android:layout_height="wrap_content"
             android:text="@string/strUsuario"
             android:textStyle="bold"
-            android:textSize="20dp"/>
+            android:textSize="20sp"/>
 
         <EditText
             android:id="@+id/txtUsuario"
@@ -40,14 +40,13 @@
             android:inputType="text"
             android:paddingTop="10dp"
             android:paddingBottom="10dp"/>
-
         <TextView
             android:id="@+id/lblContrasena"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/strContrasena"
             android:textStyle="bold"
-            android:textSize="20dp"/>
+            android:textSize="20sp"/>
 
         <EditText
             android:id="@+id/txtContra"

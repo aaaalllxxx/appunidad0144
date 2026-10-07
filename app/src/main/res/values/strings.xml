@@ -75,7 +75,7 @@
     <!--String para Pre Exam 1 -->
     <string name="user">lobatos</string>
     <string name="paa">987</string>
-    <string name="nombre">Jose Lopez A</string>
+    <string name="nombre">Alexandra</string>
 
     <string-array name="operaciones">
         <item>Area</item>
@@ -97,8 +97,6 @@
 
 
     <!--Strings para examen-->
-
-
     <string name="strCalculadora">Calculadora</string>
     <string name="strUsuario">Usuario</string>
     <string name="strContrasena">Contraseña</string>

@@ -11,10 +11,10 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:padding="15dp">
+        android:padding="15sp">
 
         <TextView
-            android:id="@+id/lblCalculadora"
+            android:id="@+id/txtCalculadora"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/strCalculadora"
@@ -24,7 +24,7 @@
             android:paddingBottom="10dp" />
 
         <TextView
-            android:id="@+id/lblUsuario"
+            android:id="@+id/txtUsuario"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAlignment="center"
@@ -51,7 +51,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/strNum2"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:textStyle="bold"/>
 
         <EditText
@@ -86,7 +86,7 @@
                 android:text="@string/btnBtnRestar" />
 
             <Button
-                android:id="@+id/btnMult"
+                android:id="@+id/btnMulti"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
