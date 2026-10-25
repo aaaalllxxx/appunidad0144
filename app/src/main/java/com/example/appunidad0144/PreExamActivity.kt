@@ -30,7 +30,7 @@ class PreExamActivity : AppCompatActivity() {
             val usuario = b.txtUser.text.toString().trim()
             val pass = b.txtPass.text.toString().trim()
 
-
+            // Usuario y contraseña obligatorios
             if (usuario.isEmpty() || pass.isEmpty()) {
                 Toast.makeText(this, "Falto capturar información", Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
